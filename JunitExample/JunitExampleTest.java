@@ -38,7 +38,7 @@ public class JunitExampleTest {
     public void removeAll() {
         obj.removeAll();
         int n=0;
-        assertEquals(n,obj.sizeOfStudent())
+        assertEquals(n,obj.sizeOfStudent());
     }
 
     @Test
@@ -70,41 +70,5 @@ public class JunitExampleTest {
         assertEquals(n1, obj.sizeOfStudent());
         assertEquals(n1, obj.sizeOfStudent());
     }
-    @Test
-
-    @Test
-
-    @Test
-
-    @Test
-
-    @Test
-
-    @Test
-
-    @Test
-
-    @Test
-
-    @Test
-
-    @Test
-
-    @Test
-
-    @Test
-
-    @Test
-
-    @Test
-
-    @Test
-
-    @Test
-
-    @Test
-
-    @Test
-
 }  
 
