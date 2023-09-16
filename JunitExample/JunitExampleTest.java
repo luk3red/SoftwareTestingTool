@@ -104,6 +104,7 @@ public class JunitExampleTest {
    }
 
    @Ignore("questo test è ignorato per testare il tool di test smells")
+   @Test
    public void testIgnoreTest() {
         obj.add("Emma");
         int n=1;
