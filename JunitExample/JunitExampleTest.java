@@ -160,7 +160,7 @@ public class JunitExampleTest {
 
 
    @Test
-   public void testSleepyTest() {
+   public void testSleepyTest() throws InterruptedException {
         obj.add("Emma");
 	String s = obj.toString();
 	int n=1;
