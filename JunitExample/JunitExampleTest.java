@@ -110,6 +110,19 @@ public class JunitExampleTest {
         int n=1;
         assertEquals(n, obj.sizeOfStudent());
     }
+
+   @Test
+   public void testMagicNumberTest() {
+        obj.add("Emma");
+        assertEquals(1, obj.sizeOfStudent());
+    }
+
+   @Test
+   public void testMysteryGuest() {
+        File tempFile = File.createTempFile("systemstate-", ".txt");
+        boolean fileExists = tempFile.exists();   
+    	assertFalse(fileExists);
+    }
 	
 }  
 
