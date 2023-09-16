@@ -73,10 +73,14 @@ public class JunitExampleTest {
     @Test
     public void testEagerTest(){
         obj.add("Emma");
-        obj.add("Emma1");
-        int n=2;
+        obj.remove("Emma");
+        int n=0;
         assertEquals(n,obj.sizeOfStudent());
-        }
+        } //non riconosciuto
 
+    @Test
+    public void testEmptyTest(){
+        
+        } 
 }  
 
