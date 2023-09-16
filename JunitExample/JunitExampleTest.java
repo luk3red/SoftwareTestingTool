@@ -70,5 +70,15 @@ public class JunitExampleTest {
         assertEquals(n1, obj.sizeOfStudent());
         assertEquals(n1, obj.sizeOfStudent());
     }
+    @Test
+    public void testCondTestLogic(){
+        obj.add("Emma");
+        int n1=1;
+        assertEquals(n1, obj.sizeOfStudent());
+        obj.remove("Emma");
+        int n=0;
+        assertEquals(n,obj.sizeOfStudent());
+        }
+
 }  
 
