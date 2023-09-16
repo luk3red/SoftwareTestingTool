@@ -82,5 +82,15 @@ public class JunitExampleTest {
     public void testEmptyTest(){
         
         } 
+
+    @Test
+    public void testExceptionHandling(){
+        try {
+        obj.removeAll();
+    	} catch (Exception e) {
+        Assert.fail(e.getMessage());
+    }
+	    
+    }
 }  
 
