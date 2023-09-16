@@ -102,5 +102,13 @@ public class JunitExampleTest {
    public void testGeneralFixture(){
 	   
    }
+
+   @Ignore("questo test è ignorato per testare il tool di test smells")
+   public void testAdd() {
+        obj.add("Emma");
+        int n=1;
+        assertEquals(n, obj.sizeOfStudent());
+    }
+	
 }  
 
