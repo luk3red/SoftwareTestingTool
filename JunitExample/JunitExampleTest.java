@@ -1,6 +1,7 @@
 package com.dariotintore.tesi;
 
 import org.junit.*;
+import java.io.File;
 import static org.junit.Assert.*;
 
 public class JunitExampleTest {
