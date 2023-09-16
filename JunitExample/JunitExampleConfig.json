@@ -7,7 +7,6 @@
     "refactoring_limit": 5,
     "smells_allowed": 3,
     "ignored_smells": [
-      "Lazy Test"
     ]
   },
   "check_game_configuration": {
