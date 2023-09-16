@@ -5,7 +5,9 @@ import static org.junit.Assert.*;
 
 public class JunitExampleTest {
 
+    protected void setUp(){
     JunitExample obj = new JunitExample();
+    }
 
     public JunitExampleTest() {} 
 
@@ -91,6 +93,11 @@ public class JunitExampleTest {
         Assert.fail(e.getMessage());
     }
 	    
-    }
+    } //non riconosciuto
+
+   @Test
+   public void testGeneralFixture(){
+	   
+   }
 }  
 
