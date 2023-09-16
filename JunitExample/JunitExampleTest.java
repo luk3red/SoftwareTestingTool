@@ -124,6 +124,21 @@ public class JunitExampleTest {
         boolean fileExists = tempFile.exists();   
     	assertFalse(fileExists);
     }
-	
+
+
+  @Test
+   public void testMRedundantPrint() {
+	obj.add("Emma");
+    	assertEquals(1, obj.sizeOfStudent());
+	System.out.println("il test Redundandt print è eseguito");
+    }
+
+
+   @Test
+   public void testRedundantAssert() {
+        obj.add("Emma");
+	int n=1;
+    	assertEquals(n,n);
+    }
 }  
 
