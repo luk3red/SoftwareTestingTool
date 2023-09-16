@@ -157,5 +157,23 @@ public class JunitExampleTest {
 	int n=1;
     	assertEquals(n,obj.sizeOfStudent());
     }
+
+
+   @Test
+   public void testSleepyTest() {
+        obj.add("Emma");
+	String s = obj.toString();
+	int n=1;
+	Thread.sleep(1)
+    	assertEquals(n,obj.sizeOfStudent());
+    }
+
+  @Test
+  public void testUnknownTest() {
+        obj.add("Emma");
+	String s = obj.toString();
+	int n=1;
+    	
+    }
 }  
 
