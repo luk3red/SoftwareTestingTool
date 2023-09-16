@@ -1,4 +1,4 @@
-package com.softwaretesting.verfificaevalidazione;
+package package com.dariotintore.tesi;
 
 
 /**
