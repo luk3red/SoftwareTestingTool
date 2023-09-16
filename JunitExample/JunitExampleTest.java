@@ -127,7 +127,7 @@ public class JunitExampleTest {
 
 
   @Test
-   public void testMRedundantPrint() {
+   public void testRedundantPrint() {
 	obj.add("Emma");
     	assertEquals(1, obj.sizeOfStudent());
 	System.out.println("il test Redundandt print è eseguito");
@@ -139,6 +139,23 @@ public class JunitExampleTest {
         obj.add("Emma");
 	int n=1;
     	assertEquals(n,n);
+    }
+
+
+   @Test
+   public void testResourceOptimism() {
+	File tempFile = new File(".\\NewTextFile.txt");
+        obj.add("Emma");
+	int n=1;
+    	assertEquals(n,obj.sizeOfStudent());
+    }
+
+   @Test
+   public void testSensitiveEquality() {
+        obj.add("Emma");
+	String s = obj.toString();
+	int n=1;
+    	assertEquals(n,obj.sizeOfStudent());
     }
 }  
 
