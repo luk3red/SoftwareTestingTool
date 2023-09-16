@@ -5,7 +5,7 @@ import static org.junit.Assert.*;
 
 public class JunitExampleTest {
 
-    protected void setUp(){
+    public void setUp(){
     JunitExample obj = new JunitExample();
     }
 
