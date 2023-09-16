@@ -1,4 +1,4 @@
-package com.softwaretesting.verfificaevalidazione;
+package com.dariotintore.tesi;
 
 import org.junit.*;
 
