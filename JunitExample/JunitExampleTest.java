@@ -164,7 +164,7 @@ public class JunitExampleTest {
         obj.add("Emma");
 	String s = obj.toString();
 	int n=1;
-	Thread.sleep(1)
+	Thread.sleep(1);
     	assertEquals(n,obj.sizeOfStudent());
     }
 
