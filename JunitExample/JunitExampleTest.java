@@ -119,7 +119,7 @@ public class JunitExampleTest {
 
    @Test
    public void testMysteryGuest() {
-        File tempFile = File.createTempFile("systemstate-", ".txt");
+        File tempFile = new File(".\\NewTextFile.txt");
         boolean fileExists = tempFile.exists();   
     	assertFalse(fileExists);
     }
