@@ -4,10 +4,13 @@ import org.junit.*;
 import static org.junit.Assert.*;
 
 public class JunitExampleTest {
-
+    JunitExample obj;
+	
+    @Before		
     public void setUp(){
-    JunitExample obj = new JunitExample();
+    obj = new JunitExample();
     }
+    
 
     public JunitExampleTest() {} 
 
