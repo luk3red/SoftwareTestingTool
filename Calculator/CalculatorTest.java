@@ -78,12 +78,12 @@ public void testDuplicateAssert() {
     //Act
     long result = objCalcUnderTest.add(a, b);
     //Assert
-    assertEquals(expectedResult, result);
+    assertEquals("Duplicate one", expectedResult, result);
 
     a = 20; b = 20;
     expectedResult = 40;
     result = objCalcUnderTest.add(a, b);
-    assertEquals(expectedResult, result);
+    assertEquals("Duplicate two", expectedResult, result);
  
  
 }
@@ -114,10 +114,10 @@ public void testExceptionHandling(){
     double expectedResult = 2; double result, delta = 0.005;
     try{
         result = objCalcUnderTest.divide(a, b);
-        assertEquals(expectedResult, result, delta);
+        assertEquals("Exception handling", expectedResult, result, delta);
     }
     catch(Exception e){
-        fail();
+        fail("fail exception handling");
     }
 }
 
