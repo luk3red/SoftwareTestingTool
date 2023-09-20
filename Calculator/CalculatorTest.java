@@ -75,15 +75,16 @@ public void testConditionalTestLogic() {
 public void testDuplicateAssert() {
     int a = 15; int b = 20;
     int expectedResult = 35;
+    String stringa = "duplicate not roulette";
     //Act
     long result = objCalcUnderTest.add(a, b);
     //Assert
-    assertEquals("Duplicate one", expectedResult, result);
+    assertEquals(stringa, expectedResult, result);
 
     a = 20; b = 20;
     expectedResult = 40;
     result = objCalcUnderTest.add(a, b);
-    assertEquals("Duplicate two", expectedResult, result);
+    assertEquals(stringa, expectedResult, result);
  
  
 }
