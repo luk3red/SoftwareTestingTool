@@ -93,7 +93,7 @@ public void testDuplicateAssert() {
 public void testEagerTest() {
     int a = 7; int b = 5;
     int expectedResultAdd = 12;
-    int expectdResultSub = 2;
+    int expectedResultSub = 2;
     //Assert
     assertEquals("add",expectedResultAdd, objCalcUnderTest.add(a, b));
     assertEquals("sub",expectedResultSub, objCalcUnderTest.subtract(a, b));
