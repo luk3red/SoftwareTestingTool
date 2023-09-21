@@ -92,13 +92,11 @@ public void testDuplicateAssert() {
 @Test
 public void testEagerTest() {
     int a = 7; int b = 5;
-    int expectedResult = 24;
-    //Act
-    int resultAdd = objCalcUnderTest.add(a, b);
-    int resultSub = objCalcUnderTest.subtract(a, b);
-    long resultMul = objCalcUnderTest.multiply(resultAdd, resultSub);
+    int expectedResultAdd = 12;
+    int expectdResultSub = 2;
     //Assert
-    assertEquals(expectedResult, resultMul);
+    assertEquals("add",expectedResultAdd, objCalcUnderTest.add(a, b));
+    assertEquals("sub",expectedResultSub, objCalcUnderTest.sub(a, b));
  
 }
 
