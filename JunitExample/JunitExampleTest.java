@@ -6,6 +6,7 @@ import static org.junit.Assert.*;
 
 public class JunitExampleTest {
     JunitExample obj;
+    JunitExample obj2;
 	
     @Before		
     public void setUp(){
