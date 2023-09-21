@@ -10,6 +10,7 @@ public class JunitExampleTest {
     @Before		
     public void setUp(){
     obj = new JunitExample();
+    obj2 = new JunitExample();
     }
     
 
@@ -98,11 +99,6 @@ public class JunitExampleTest {
     }
 	    
     } //non riconosciuto
-
-   @Test
-   public void testGeneralFixture(){
-	   
-   }
 
    @Ignore("questo test è ignorato per testare il tool di test smells")
    @Test
