@@ -21,5 +21,13 @@ public class JunitExample {
     public int sizeOfStudent() {  
         return students.size();  
     }  
+    public boolean isEmpty() {  
+        if (students.size() == 0 ){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }  
       
 }  
