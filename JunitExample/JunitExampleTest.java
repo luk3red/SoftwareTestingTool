@@ -84,6 +84,7 @@ public class JunitExampleTest {
         obj.remove("Emma");
         int n=0;
         assertEquals(n,obj.sizeOfStudent());
+	assertEquals(true,obj.isEmpty());
         } //non riconosciuto
 
     @Test
