@@ -96,7 +96,7 @@ public void testEagerTest() {
     int expectdResultSub = 2;
     //Assert
     assertEquals("add",expectedResultAdd, objCalcUnderTest.add(a, b));
-    assertEquals("sub",expectedResultSub, objCalcUnderTest.sub(a, b));
+    assertEquals("sub",expectedResultSub, objCalcUnderTest.subtract(a, b));
  
 }
 
