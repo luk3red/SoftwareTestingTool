@@ -127,7 +127,8 @@ public class JunitExampleTest {
   @Test
    public void testRedundantPrint() {
 	obj.add("Emma");
-    	assertEquals(1, obj.sizeOfStudent());
+	int n=1;
+    	assertEquals(n, obj.sizeOfStudent());
 	System.out.println("il test Redundandt print è eseguito");
     } //non viene riconosciuto come dovrebbe 
 
