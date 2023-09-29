@@ -64,7 +64,6 @@ public class JunitExampleTest {
         obj.add("Emma");
         int n1=1;
         if(obj.sizeOfStudent() == n1){
-	  	    int n2=2;
             assertEquals(n1, obj.sizeOfStudent());
 	    }
     }
