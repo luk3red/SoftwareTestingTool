@@ -68,7 +68,8 @@ public class JunitExampleTest {
             assertEquals(n1, obj.sizeOfStudent());
             obj.add("Emma2");
             if(obj.sizeOfStudent() == n2){
-            assertEquals(n2, obj.sizeOfStudent());}}
+            //assertEquals(n2, obj.sizeOfStudent());
+	    }}
     }
 
     @Test
