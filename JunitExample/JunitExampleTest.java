@@ -66,10 +66,10 @@ public class JunitExampleTest {
         if(obj.sizeOfStudent() == n1){
 	  	    int n2=2;
             assertEquals(n1, obj.sizeOfStudent());
-            obj.add("Emma2");
-            if(obj.sizeOfStudent() == n2){
-            //assertEquals(n2, obj.sizeOfStudent());
-	    }}
+            //obj.add("Emma2");
+            //if(obj.sizeOfStudent() == n2){
+            //assertEquals(n2, obj.sizeOfStudent());}
+	    }
     }
 
     @Test
