@@ -1,6 +1,7 @@
 package com.dariotintore.tesi;
 
 import org.junit.*;
+import org.util.*;
 import static org.junit.Assert.*;
 
 public class CoverageTest {
@@ -14,7 +15,7 @@ public class CoverageTest {
     @Test
     public void emptyTest(){
 
-    //assertTrue(obj.readall() istanceof List<String>);
+    //assertTrue(obj.readAll() instanceof List<String>);
     
     }
     
