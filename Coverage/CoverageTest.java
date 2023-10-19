@@ -33,8 +33,8 @@ public class CoverageTest {
     
     @Test
     public void eagerTest(){
-    assertFalse(obj.delete(0));
-    assertTrue(obj.isEmpty()); 
+    assertFalse("p", obj.delete(0));
+    assertTrue("s", obj.isEmpty()); 
     }
     
     
