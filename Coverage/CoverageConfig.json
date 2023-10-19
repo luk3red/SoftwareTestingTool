@@ -10,7 +10,7 @@
     ]
   },
   "check_game_configuration": {
-
+    "questions": []
   },
   "auto_valutative": true
 }
