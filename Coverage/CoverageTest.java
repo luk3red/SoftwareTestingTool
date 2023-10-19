@@ -25,7 +25,7 @@ public class CoverageTest {
     }
     
     @Test
-    public void unknownTest();
+    public void unknownTest(){
     int n1=0;
     //assertEquals("test sulla size",n1,obj.size());
     }
