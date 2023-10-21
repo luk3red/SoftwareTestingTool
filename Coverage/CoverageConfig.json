@@ -4,7 +4,7 @@
     "dependencies": [
       "<dependency>\n  <groupId>junit</groupId>\n  <artifactId>junit</artifactId>\n  <version>4.13.2</version>\n  <scope>test</scope>\n  </dependency>\n"
     ],
-    "refactoring_limit": 5,
+    "refactoring_limit": 4,
     "smells_allowed": 3,
     "ignored_smells": [
     ]
