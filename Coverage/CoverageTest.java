@@ -1,7 +1,7 @@
 package com.dariotintore.tesi;
 
 import org.junit.*;
-import org.util.*;
+import java.util.*;
 import static org.junit.Assert.*;
 
 public class CoverageTest {
