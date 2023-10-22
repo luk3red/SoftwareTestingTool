@@ -45,7 +45,7 @@ public class MyClassTest {
     	String s = "Hello, World";
         assertEquals(s, myClass.concatenateStrings("Hello, ", "World"));
         s = "Hello, 5";
-        assertEquals(s, myClass.concatenateStrings("Hello, ", Integer(5).toString()));
+        assertEquals(s, myClass.concatenateStrings("Hello, ", (new Integer(5)).toString()));
     }
 
     @Test
