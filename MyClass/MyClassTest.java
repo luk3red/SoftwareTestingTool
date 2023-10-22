@@ -49,7 +49,7 @@ public class MyClassTest {
     }
 
     @Test
-    public void testIsEven() {
+    public void testIsEven() throws InterruptedException{
         assertTrue(myClass.isEven(4));
         Thread.sleep(5); 
         assertFalse(myClass.isEven(7));
