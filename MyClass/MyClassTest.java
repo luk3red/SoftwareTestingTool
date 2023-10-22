@@ -6,17 +6,18 @@ public class MyClassTest {
 
     @Test
     public void testAdd() {
-    	assertEquals(4, myClass.add(2,2);
+    	assertEquals(4, myClass.add(2,2));
         assertEquals(5, myClass.add(2, 3));
     }
 
     @Test
     public void testSubtract() {
     	int a = 5, b = 3, s = 2;
-    	if(a > b)
+    	if(a > b){
          assertEquals(2, myClass.subtract(a, b));
          assertEquals(s,s);
          System.out.print(s);
+         }
         else
          assertEquals(2, myClass.subtract(b, a));
     }
