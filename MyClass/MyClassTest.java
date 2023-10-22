@@ -1,5 +1,6 @@
 import org.junit.Test;
 import static org.junit.Assert.*;
+import java.lang.*;
 
 public class MyClassTest {
     private MyClass myClass = new MyClass();
@@ -35,7 +36,7 @@ public class MyClassTest {
          assertEquals(2.0, myClass.divide(10.0, 5.0), 0.001);
          }
          catch (IllegalArgumentException e){
-          Assert.fail(e.getMessage());
+          fail(e.getMessage());
          }
     }
 
