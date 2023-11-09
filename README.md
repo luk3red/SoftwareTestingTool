@@ -18,7 +18,6 @@ scaricare l’ultima release dal seguente indirizzo:<br>
 <p class="has-line-data" data-line-start="26" data-line-end="28"><strong>Github Repository Url:</strong> <a href="https://github.com/luk3red/SoftwareTestingTool">https://github.com/luk3red/SoftwareTestingTool</a><br>
 <strong>branch:</strong> main</p>
 <p class="has-line-data" data-line-start="29" data-line-end="36">Impostare la seguente configurazione nelle impostazioni del tool:<br>
-seguente configurazione:<br>
 <strong>User Service URL:</strong> <a href="http://localhost:8081">http://localhost:8081</a><br>
 <strong>Compiler Service URL:</strong> <a href="http://localhost:8083">http://localhost:8083</a><br>
 <strong>Leader Board URL:</strong> <a href="http://localhost:8087">http://localhost:8087</a><br>
