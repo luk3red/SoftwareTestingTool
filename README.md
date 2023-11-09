@@ -2,7 +2,7 @@
 <p class="has-line-data" data-line-start="3" data-line-end="4">In questa repository vi sono gli artefatti realizzati e utilizzati per il processo di validazoione di un sistema di learning sulla tematica dei <em>Test Smell</em>.</p>
 <p class="has-line-data" data-line-start="5" data-line-end="8">Per installare l’infrastruttura server in locale è necessario clonare il seguente repository:<br>
 <a href="https://github.com/DarioTin/Tesi-Server-Setup">https://github.com/DarioTin/Tesi-Server-Setup</a><br>
-Dopo aver clonato il repository è necessario aprire un terminale all’interno della directory creata ed inviare all’interno del terminale docker-compose up.</p>
+Dopo aver clonato il repository è necessario aprire un terminale all’interno della directory creata ed inviare all’interno del terminale <code>docker-compose up</code></p>
 <p class="has-line-data" data-line-start="9" data-line-end="12">Per installare il client in locale è necessario clonare la seguente repository oppure<br>
 scaricare l’ultima release dal seguente indirizzo:<br>
 <a href="https://github.com/DarioTin/Tesi-Client-Setup/releases">https://github.com/DarioTin/Tesi-Client-Setup/releases</a></p>
